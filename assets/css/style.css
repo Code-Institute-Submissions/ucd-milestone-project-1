@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*------------------------------------------------- background colors */
+
+body{
+    height: 100vh;
+    background-image: url(../images/rolling-stone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*---------------------------------------------------------- headings */
+
+.navigation {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: rgba(248, 249, 250, 0.7);
+}
+
+.band-title {
+    background-color:C
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    display: block;
+}
+
+
+/*------------------------------------------------------ media queries */
+
+@media(min-width:360px) {
+    .navigation {
+        max-width: 70%;
+        width: 70%;
+        display: block;
+    }
+
+    .wrapper {
+        text-align: left;
+    }
+}
+
+@media(min-width:768px) {
+    .navigation {
+        display: inline-block;
+    }
+
+    .wrapper {
+        text-align: center;
+    }
+}
