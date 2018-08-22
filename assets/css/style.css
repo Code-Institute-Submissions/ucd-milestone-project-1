@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*------------------------------------------------- background colors */
+/*-------------------------------------------------- background colors */
 
-body{
-    height: 100vh;
-    background-image: url(../images/rolling-stone.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+/*--------------------------------------------- misc padding / margins */
+
+body {
+    margin: 50px%;
 }
 
 /*---------------------------------------------------------- headings */
@@ -19,11 +17,41 @@ body{
 }
 
 .band-title {
-    background-color:C
+    background-color: rgba(248, 249, 250, 0.1);
     font-family: "Exo", sans-serif;
     font-weight: 700;
     font-size: 4rem;
     display: block;
+}
+
+/*------------------------------------------------------------ section */
+
+.paint-video {
+    margin-top: 50px;
+}
+
+
+/*------------------------------------------------------------- footer */
+
+.footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(248, 249, 250, 0.7);
+}
+
+.s-link {
+    font-size: 20px;
+    padding-right: 2.5rem;
+}
+
+.s-link a {
+    color: #f51c29;
+}
+
+.s-link a:hover{
+        color: #007bff;
 }
 
 
@@ -48,5 +76,14 @@ body{
 
     .wrapper {
         text-align: center;
+    }
+
+    body {
+        height: 100vh;
+        background-image: url(../images/rolling-stone.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
