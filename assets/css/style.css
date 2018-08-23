@@ -23,6 +23,11 @@
     background-color: rgba(248, 249, 250, 0.7);
 }
 
+.welcome{
+    background-color: rgb(248, 249, 250);
+    background-color: rgba(248, 249, 250, 0.7);
+}
+
 
 
 /*--------------------------------------------- misc padding / margins */
@@ -50,11 +55,14 @@ body {
     font-weight: 500;
 }
 
-/*------------------------------------------------------------ section */
+/*------------------------------------------------------------ index */
 
-.paint-video {
+.welcome{
     margin-top: 50px;
+    padding-top: 25px;
 }
+
+/*------------------------------------------------------------ band */
 
 .band-description {
     padding: 10px;
