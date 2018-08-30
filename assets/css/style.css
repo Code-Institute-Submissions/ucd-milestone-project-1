@@ -4,7 +4,6 @@
 
 body {
     background-color: #ffffff;
-    height: 100vh;
     background-image: url(../images/rolling-stone.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -22,6 +21,8 @@ body {
     padding: 1rem;
     background-color: rgb(248, 249, 250);
     background-color: rgba(248, 249, 250, 0.7);
+    margin-bottom: 2rem;
+    font-family: "Exo", sans-serif;
 }
 
 /*---------------------------------------------------------- headings */
@@ -32,7 +33,6 @@ body {
 }
 
 .band-title {
-    font-family: "Exo", sans-serif;
     font-weight: 700;
     font-size: 4rem;
     display: block;
@@ -51,7 +51,7 @@ body {
     padding-top: 25px;
 }
 
-.app-photo{
+.app-photo {
     margin-bottom: 3rem;
 }
 
@@ -88,6 +88,12 @@ body {
 
     display: block;
     margin-left: 10px
+}
+
+/*--------------------------------------------------------------- media */
+
+.video{
+    margin-bottom: 3rem;
 }
 
 /*------------------------------------------------------------- contact */
@@ -155,16 +161,14 @@ body {
         text-align: center;
     }
 
-    .band-description {
-        max-width: 90%;
-        width: 90%;
+    .transparent-back {
+        max-width: 95%;
         display: block;
+        margin: 3rem auto;
     }
 
-    .transparent-back {
-        display: block;
-        margin: 2rem auto;
-
+    .number {
+        margin: 1rem auto;
     }
 }
 
@@ -173,23 +177,12 @@ body {
         display: block;
     }
 
-    .wrapper {
-        text-align: center;
-    }
-
-    .band-description {
-        max-width: 70%;
-        width: 70%;
-    }
-
-    .line-up {
-        margin-left: 15%;
-        max-width: 75%;
-        width: 75%;
-    }
-
     .contact-form {
         margin: 0 auto;
         width: 70%;
+    }
+
+    .transparent-back {
+        max-width: 70%;
     }
 }
