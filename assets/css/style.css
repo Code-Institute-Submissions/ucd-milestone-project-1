@@ -13,14 +13,14 @@ body {
 
 .navigation {
     background-color: rgb(248, 249, 250);
-    background-color: rgba(248, 249, 250, 0.7);
+    background-color: rgba(248, 249, 250, 0.8);
 }
 
 .transparent-back {
     max-width: 70%;
     padding: 1rem;
     background-color: rgb(248, 249, 250);
-    background-color: rgba(248, 249, 250, 0.7);
+    background-color: rgba(248, 249, 250, 0.8);
     margin-bottom: 2rem;
     font-family: "Exo", sans-serif;
 }
@@ -85,14 +85,15 @@ body {
 }
 
 .member-info {
-
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
     display: block;
     margin-left: 10px
 }
 
 /*--------------------------------------------------------------- media */
 
-.video{
+.video {
     margin-bottom: 3rem;
 }
 
@@ -126,6 +127,12 @@ body {
 
 :-ms-input-placeholder {
     text-align: center;
+}
+
+.small-form {
+    max-width: 50%;
+    width: 50%;
+    margin: 10px auto;
 }
 
 /*------------------------------------------------------------- footer */
